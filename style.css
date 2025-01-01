@@ -101,3 +101,12 @@ label[for="search"] {
     height: 30px;
     border-radius: 50%;
 }
+
+.header-bottom-section {
+    padding: 16px;
+    padding-right: 4em;
+    display: grid;
+    gap: 16px;
+    align-items: center;
+    grid-template-columns: auto 1fr 0.1fr 0.1fr 0.1fr;
+}
