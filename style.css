@@ -75,6 +75,48 @@ main {
 }
 
 
+.sidebar-item .sidebar-item-icon {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.sidebar-item-icon.home {
+    mask: url(./images/home.svg);
+}
+
+.sidebar-item-icon.profile {
+    mask: url(./images/card-account-details-outline.svg);
+}
+
+.sidebar-item-icon.messages {
+    mask: url(./images/message-reply.svg);
+}
+
+.sidebar-item-icon.history {
+    mask: url(./images/clock-time-three-outline.svg);
+}
+
+.sidebar-item-icon.tasks {
+    mask: url(./images/file-multiple.svg);
+}
+
+.sidebar-item-icon.communities {
+    mask: url(./images/account-group.svg);
+}
+
+.sidebar-item-icon.settings {
+    mask: url(./images/cog.svg);
+}
+
+.sidebar-item-icon.support {
+    mask: url(./images/help-box-outline.svg);
+}
+
+.sidebar-item-icon.privacy {
+    mask: url(./images/shield-check.svg);
+}
+
 .header-top-section {
     display: grid;
     grid-template-columns: 1fr auto auto auto auto;
