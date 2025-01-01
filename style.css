@@ -68,6 +68,9 @@ main {
 
 label[for="search"] {
     margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .search-icon {
