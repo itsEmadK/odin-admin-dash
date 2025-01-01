@@ -1,3 +1,10 @@
+:root {
+    --sidebar-bg-color: #38bdf8;
+    --main-bg-color: #efeff3;
+    --header-bg-color: white;
+    --sidebar-text-color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,17 +24,18 @@ body {
 
 
 header {
-    background-color: aqua;
+    background-color: var(--header-bg-color);
     grid-area: header;
 }
 
 .sidebar {
-    background-color: green;
+    background-color: var(--sidebar-bg-color);
+    color: var(--sidebar-text-color);
     grid-area: sidebar;
 }
 
 main {
-    background-color: brown;
+    background-color: var(--main-bg-color);
     grid-area: main;
 }
 
