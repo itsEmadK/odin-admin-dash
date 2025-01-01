@@ -59,6 +59,17 @@ main {
 }
 
 
+.header-top-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px;
+}
+
+label[for="search"] {
+    margin-right: auto;
+}
+
 .search-icon {
     width: 15px;
     height: 15px;
