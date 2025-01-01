@@ -57,3 +57,8 @@ main {
 .sidebar-item:nth-last-child(3) {
     margin-top: 2em;
 }
+
+
+.header-top-section img {
+    width: 20px;
+}
