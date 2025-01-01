@@ -199,3 +199,8 @@ label[for="search"] {
     font-weight: bold;
     font-size: 1rem;
 }
+
+main {
+    padding: 8px;
+    grid-template-columns: 1fr auto;
+}
