@@ -1,6 +1,6 @@
 :root {
     --sidebar-bg-color: #38bdf8;
-    --main-bg-color: #efeff3;
+    --main-bg-color: #e1e1e6;
     --header-bg-color: white;
     --sidebar-text-color: white;
 }
@@ -71,6 +71,13 @@ label[for="search"] {
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+#search {
+    padding: 4px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--main-bg-color);
 }
 
 .search-icon {
