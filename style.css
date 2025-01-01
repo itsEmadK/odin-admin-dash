@@ -68,6 +68,7 @@ main {
 
 .sidebar-item {
     margin-top: 0.6em;
+    font-weight: bold;
 }
 
 .sidebar-header .sidebar-item-icon {
