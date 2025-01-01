@@ -59,6 +59,22 @@ main {
 }
 
 
-.header-top-section img {
-    width: 20px;
+.search-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.header-top-section .notifications {
+    width: 15px;
+    height: 15px;
+    background-image: url("./images/bell-ring.svg");
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.user-prof-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
