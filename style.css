@@ -66,6 +66,10 @@ main {
     font-size: 1.2em;
 }
 
+.sidebar-item {
+    margin-top: 0.6em;
+}
+
 .sidebar-header .sidebar-item-icon {
     width: 30px;
     height: 30px;
