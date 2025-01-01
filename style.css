@@ -30,3 +30,10 @@ main {
     background-color: brown;
     grid-area: main;
 }
+
+
+.sidebar-item {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: auto 1fr;
+}
