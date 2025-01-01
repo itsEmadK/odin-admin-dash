@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) 5fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas:
+        "sidebar header"
+        "sidebar main"
+    ;
+}
+
+
+header {
+    background-color: aqua;
+    grid-area: header;
+}
+
+.sidebar {
+    background-color: green;
+    grid-area: sidebar;
+}
+
+main {
+    background-color: brown;
+    grid-area: main;
+}
