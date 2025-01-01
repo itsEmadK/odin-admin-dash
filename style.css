@@ -115,3 +115,13 @@ label[for="search"] {
     width: 50px;
     height: 50px;
 }
+
+.header-bottom-section button {
+    background-color: var(--sidebar-bg-color);
+    border-radius: 16px;
+    border: none;
+    padding: 0.75em 1em;
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: white;
+}
