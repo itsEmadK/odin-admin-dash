@@ -49,6 +49,8 @@ main {
     display: grid;
     gap: 12px;
     grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-items: start;
 }
 
 .sidebar-item.sidebar-header {
@@ -57,6 +59,19 @@ main {
 
 .sidebar-item:nth-last-child(3) {
     margin-top: 2em;
+}
+
+
+.sidebar-header {
+    font-size: 1.2em;
+}
+
+.sidebar-header .sidebar-item-icon {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: white;
+    mask: url(./images/view-dashboard.svg);
 }
 
 
