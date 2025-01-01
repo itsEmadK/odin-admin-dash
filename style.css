@@ -32,8 +32,20 @@ main {
 }
 
 
+.sidebar {
+    padding: 12px;
+}
+
 .sidebar-item {
     display: grid;
     gap: 12px;
     grid-template-columns: auto 1fr;
+}
+
+.sidebar-item.sidebar-header {
+    margin-bottom: 2em;
+}
+
+.sidebar-item:nth-last-child(3) {
+    margin-top: 2em;
 }
