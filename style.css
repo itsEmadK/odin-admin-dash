@@ -204,3 +204,25 @@ main {
     padding: 8px;
     grid-template-columns: 1fr auto;
 }
+
+.project-card-options>button {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+}
+
+button.star {
+    mask: url(./images/star-plus-outline.svg);
+
+}
+
+button.view {
+    mask: url(./images/eye-plus-outline.svg);
+}
+
+button.share {
+    transform: rotateZ(-90deg);
+    mask: url(./images/share-variant-outline.svg);
+}
