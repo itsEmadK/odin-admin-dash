@@ -273,6 +273,8 @@ button.share {
     border-bottom: 1px solid rgb(225, 225, 225);
     background-color: white;
     padding-bottom: 1em;
+    display: grid;
+    align-content: start;
 }
 
 .announcement-title {
