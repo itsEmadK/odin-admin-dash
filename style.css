@@ -154,8 +154,9 @@ label[for="search"] {
 }
 
 .header-top-section .notifications {
-    width: 15px;
-    height: 15px;
+    width: 1.4em;
+    height: auto;
+    aspect-ratio: 1;
     background-image: url("./images/bell-ring.svg");
     border-radius: 50%;
     border: none;
