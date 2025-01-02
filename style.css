@@ -4,6 +4,7 @@
     --header-bg-color: white;
     --sidebar-text-color: white;
     --project-card-box-shadow-color: rgb(189, 189, 189);
+    --card-box-shadow: 4px 4px 4px var(--project-card-box-shadow-color);
 }
 
 * {
@@ -270,7 +271,7 @@ button.share {
     padding: 24px;
     background-color: white;
     border-radius: 6px;
-    box-shadow: 4px 4px 4px var(--project-card-box-shadow-color);
+    box-shadow: var(--card-box-shadow);
 }
 
 .announcement-item {
