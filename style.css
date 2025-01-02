@@ -346,26 +346,39 @@ main {
         "prj ann"
         "prj tre"
     ;
-    gap: 1em;
-    row-gap: 2em;
+    column-gap: 1em;
+    row-gap: 3em;
     padding-left: 1em;
     padding-bottom: 4em;
     padding-top: 2em;
     padding-right: 1.5em;
 }
 
-.projects-container {
+.prj-wrapper {
     grid-area: prj;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+
+.tre-wrapper {
+    grid-area: tre;
+    display: grid;
+    grid-template-rows: auto 1fr;
 }
 
 .trending {
-    grid-area: tre;
     display: grid;
     align-content: start;
 }
 
-.announcements {
+.ann-wrapper {
     grid-area: ann;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.announcements {
     display: grid;
     align-content: start;
 }
