@@ -317,19 +317,23 @@ button.share {
 
 .trending-item {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 0.28fr 1fr;
     column-gap: 0.8em;
     margin-bottom: 1em;
+    grid-auto-rows: 1.2em;
+    align-items: center;
 }
 
 .trending-item .user-prof-pic {
     grid-row: 1/3;
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
 }
 
 .trending-item .usertag {
     font-weight: bold;
+    align-self: start;
 }
 
 .trending-item .user-proj {
@@ -367,9 +371,10 @@ main {
     grid-template-rows: auto 1fr;
 }
 
+
 .trending {
     display: grid;
-    align-content: start;
+    align-content: space-between;
 }
 
 .ann-wrapper {
@@ -380,8 +385,13 @@ main {
 
 .announcements {
     display: grid;
-    align-content: start;
+    align-content: stretch;
 }
+
+.announcement-item {
+    display: grid;
+}
+
 
 h4 {
     margin-bottom: 12px;
