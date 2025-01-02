@@ -141,15 +141,16 @@ label[for="search"] {
 }
 
 #search {
-    padding: 4px;
+    padding: 8px;
     border-radius: 15px;
     border: none;
     background-color: var(--main-bg-color);
 }
 
 .search-icon {
-    width: 15px;
-    height: 15px;
+    width: 1.4em;
+    height: auto;
+    aspect-ratio: 1;
 }
 
 .header-top-section .notifications {
