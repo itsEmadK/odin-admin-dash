@@ -348,6 +348,10 @@ main {
     ;
     gap: 1em;
     row-gap: 2em;
+    padding-left: 1em;
+    padding-bottom: 4em;
+    padding-top: 2em;
+    padding-right: 1.5em;
 }
 
 .projects-container {
