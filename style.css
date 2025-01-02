@@ -202,11 +202,6 @@ label[for="search"] {
     font-size: 1rem;
 }
 
-main {
-    padding: 8px;
-    grid-template-columns: 1fr auto;
-}
-
 .project-card-options>button {
     width: 20px;
     height: 20px;
