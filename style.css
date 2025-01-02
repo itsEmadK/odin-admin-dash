@@ -3,6 +3,7 @@
     --main-bg-color: #e1e1e6;
     --header-bg-color: white;
     --sidebar-text-color: white;
+    --project-card-box-shadow-color: rgb(189, 189, 189);
 }
 
 * {
@@ -225,4 +226,32 @@ button.view {
 button.share {
     transform: rotateZ(-90deg);
     mask: url(./images/share-variant-outline.svg);
+}
+
+
+.project-card {
+    gap: 4px;
+    border-left: 8px solid orange;
+    padding: 24px 16px;
+    display: grid;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    grid-template-rows: auto 1fr auto;
+    box-shadow: 4px 4px 4px var(--project-card-box-shadow-color);
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.project-desc {
+    font-size: 0.8em;
+}
+
+.project-card-options {
+    justify-self: end;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
 }
