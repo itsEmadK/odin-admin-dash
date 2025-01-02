@@ -267,8 +267,7 @@ button.share {
 
 .announcements {
     width: 33ch;
-    margin-top: 12px;
-    padding: 24px;
+    padding: 12px 24px;
     background-color: white;
     border-radius: 6px;
     box-shadow: var(--card-box-shadow);
@@ -314,7 +313,6 @@ button.share {
 
 .trending {
     width: 33ch;
-    margin-top: 12px;
     padding: 24px;
     background-color: white;
     border-radius: 6px;
@@ -341,4 +339,33 @@ button.share {
 .trending-item .user-proj {
     font-size: 0.8em;
     color: rgb(92, 92, 92);
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "prj ann"
+        "prj tre"
+    ;
+    gap: 1em;
+    row-gap: 2em;
+}
+
+.projects-container {
+    grid-area: prj;
+}
+
+.trending {
+    grid-area: tre;
+    display: grid;
+    align-content: start;
+}
+
+.announcements {
+    grid-area: ann;
+    display: grid;
+    align-content: start;
 }
