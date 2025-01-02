@@ -64,13 +64,15 @@ main {
 }
 
 
-.sidebar-header {
-    font-size: 1.3em;
-}
 
 .sidebar-item {
     margin-top: 1em;
     font-weight: bold;
+}
+
+.sidebar-header {
+    font-size: 1.3em;
+    margin-top: 0px;
 }
 
 .sidebar-header .sidebar-item-icon {
