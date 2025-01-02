@@ -65,7 +65,7 @@ main {
 
 
 .sidebar-header {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .sidebar-item {
@@ -74,8 +74,9 @@ main {
 }
 
 .sidebar-header .sidebar-item-icon {
-    width: 30px;
-    height: 30px;
+    width: 3em;
+    height: auto;
+    aspect-ratio: 1;
     background-color: white;
     color: white;
     mask: url(./images/view-dashboard.svg);
@@ -83,8 +84,9 @@ main {
 
 
 .sidebar-item .sidebar-item-icon {
-    width: 20px;
-    height: 20px;
+    width: 1.5em;
+    height: auto;
+    aspect-ratio: 1;
     background-color: white;
 }
 
