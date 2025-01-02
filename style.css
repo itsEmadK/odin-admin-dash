@@ -229,6 +229,13 @@ button.share {
 }
 
 
+.projects-container {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
 .project-card {
     gap: 4px;
     border-left: 8px solid orange;
