@@ -262,3 +262,50 @@ button.share {
     grid-auto-flow: column;
     gap: 20px;
 }
+
+
+.announcements {
+    width: 33ch;
+    margin-top: 12px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px var(--project-card-box-shadow-color);
+}
+
+.announcement-item {
+    border-bottom: 1px solid rgb(225, 225, 225);
+    background-color: white;
+    padding-bottom: 1em;
+}
+
+.announcement-title {
+    padding-top: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.announcement-desc {
+    line-height: 1.2;
+    font-size: 0.8em;
+    color: rgb(92, 92, 92);
+    height: calc(3em * 1.2);
+    line-clamp: 3;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.announcement-desc::after {
+    content: "";
+    width: 30ch;
+    height: calc(1em * 1.2);
+    background-image: linear-gradient(90deg, transparent, white);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.announcement-item:last-child {
+    border: none;
+}
