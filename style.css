@@ -163,8 +163,9 @@ label[for="search"] {
 }
 
 .user-prof-pic {
-    width: 30px;
-    height: 30px;
+    width: 2.4em;
+    height: auto;
+    aspect-ratio: 1;
     border-radius: 50%;
 }
 
