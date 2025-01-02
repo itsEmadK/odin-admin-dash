@@ -406,3 +406,13 @@ main {
 h4 {
     margin-bottom: 12px;
 }
+
+
+
+button,
+.sidebar-item:not(.sidebar-header),
+.announcement-item .announcement-title,
+.trending-item,
+.project-title {
+    cursor: pointer;
+}
