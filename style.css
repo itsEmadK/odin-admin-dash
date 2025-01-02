@@ -382,3 +382,7 @@ main {
     display: grid;
     align-content: start;
 }
+
+h4 {
+    margin-bottom: 12px;
+}
