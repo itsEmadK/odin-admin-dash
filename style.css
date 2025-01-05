@@ -434,6 +434,19 @@ button,
     transform: translateY(4px);
 }
 
+
+.announcements,
+.trending {
+    transition: 0.3s all;
+}
+
+.announcements:hover,
+.trending:hover {
+    box-shadow: var(--card-box-shadow-hovered);
+    transform: translateY(4px);
+
+}
+
 .sidebar-item:not(.sidebar-header) {
     margin: 0;
     padding-top: 0.5em;
