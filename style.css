@@ -354,10 +354,8 @@ button.share {
 main {
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-template-rows: 1fr 1fr;
     grid-template-areas:
-        "prj ann"
-        "prj tre"
+        "prj aside"
     ;
     column-gap: 1em;
     row-gap: 3em;
@@ -365,6 +363,10 @@ main {
     padding-bottom: 4em;
     padding-top: 2em;
     padding-right: 1.5em;
+}
+
+aside {
+    grid-area: aside;
 }
 
 .prj-wrapper {
@@ -375,7 +377,6 @@ main {
 
 
 .tre-wrapper {
-    grid-area: tre;
     display: grid;
     grid-template-rows: auto 1fr;
 }
@@ -383,11 +384,11 @@ main {
 
 .trending {
     display: grid;
+    gap: 1em;
     align-content: space-between;
 }
 
 .ann-wrapper {
-    grid-area: ann;
     display: grid;
     grid-template-rows: auto 1fr;
 }
@@ -395,6 +396,7 @@ main {
 .announcements {
     display: grid;
     align-content: stretch;
+    margin-bottom: 2em;
 }
 
 .announcement-item {
