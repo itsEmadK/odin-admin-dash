@@ -5,6 +5,7 @@
     --sidebar-text-color: white;
     --project-card-box-shadow-color: rgb(189, 189, 189);
     --card-box-shadow: 4px 4px 4px var(--project-card-box-shadow-color);
+    --card-box-shadow-hovered: 6px 6px 6px var(--project-card-box-shadow-color);
 }
 
 * {
@@ -429,7 +430,7 @@ button,
 }
 
 .project-card:hover {
-    box-shadow: 6px 6px 6px var(--project-card-box-shadow-color);
+    box-shadow: var(--card-box-shadow-hovered);
     transform: translateY(4px);
 }
 
