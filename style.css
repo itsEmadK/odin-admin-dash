@@ -462,3 +462,11 @@ button,
 .sidebar-item:not(.sidebar-header):hover {
     background-color: #0a679a;
 }
+
+.header-bottom-section button {
+    transition: 0.3s all;
+}
+
+.header-bottom-section button:hover {
+    background-color: #0f70a4;
+}
