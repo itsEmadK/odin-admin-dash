@@ -432,3 +432,19 @@ button,
     box-shadow: 6px 6px 6px var(--project-card-box-shadow-color);
     transform: translateY(4px);
 }
+
+.sidebar-item:not(.sidebar-header) {
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.sidebar-item:not(.sidebar-header) {
+    transition: all 0.3s;
+}
+
+.sidebar-item:not(.sidebar-header):hover {
+    background-color: #0a679a;
+}
