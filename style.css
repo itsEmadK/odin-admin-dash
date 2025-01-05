@@ -423,3 +423,12 @@ button,
 .project-card button:hover {
     background-color: #1992d4;
 }
+
+.project-card {
+    transition: all 0.3s;
+}
+
+.project-card:hover {
+    box-shadow: 6px 6px 6px var(--project-card-box-shadow-color);
+    transform: translateY(4px);
+}
